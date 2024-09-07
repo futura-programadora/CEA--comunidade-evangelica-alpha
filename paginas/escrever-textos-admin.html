@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/escrever-textos-admin.css">
+    <title>escrever textos admin</title>
+</head>
+<body>
+    <section class="container">
+        <header class="header">
+            <a href="javascript:history.back()" class="back-icon">
+                <span class="material-icons">arrow_back</span> <!-- Ícone de voltar -->
+            </a>
+            <h2>Resgistros</h2>
+        </header>
+    </section>
+    <section class="fazer-texto">
+        <input type="text" id="titulo" placeholder="Digite o título aqui">
+        <textarea id="conteudo" placeholder="Digite o texto aqui"></textarea>
+        <button id="postar">Postar</button>
+    </section>
+    <h2>Registrados</h2>
+    <section id="posts"></section>
+        
+        <!-- Os posts aparecerão aqui -->
+    </section>
+</body>
+<script src="../scripts/escrever-textos-admin.js"></script>
+</html>

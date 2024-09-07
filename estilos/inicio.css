@@ -39,7 +39,7 @@ body {
     height: 70px;
 }
 
-.header .user, a {
+section.container > section.header > div.user > a > span, a {
     font-size: 45px;
     color: white;
 }

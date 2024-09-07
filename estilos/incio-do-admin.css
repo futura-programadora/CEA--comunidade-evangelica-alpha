@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 70px;
+}
+
+.header .notification .material-icons {
+    font-size: 45px;
+    color: white;
+}
+
+section.container > section.header > div.user > a > span, a {
+    font-size: 45px;
+    color: white;
+}
+
+#texto-cultos-agendados {
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 20px;
+}
+
+#lives-agendadas {
+    /*centraliza tudo verticalmente e horizontalmente*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(191, 187, 187);
+    border-radius: 10px;
+    width: 80vw;
+    height: 45px;
+    border: 1px solid black;
+}
+
+#comecar-live {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 60vw; /* Ajuste a largura conforme necessário */
+    height: 40vh; /* Ajuste a altura conforme necessário */
+    background-color: #ffde59;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#comecar-live:hover {
+    cursor: pointer;
+}
+
+#comecar-live p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 600;
+}
+
+a#comecar {
+    color: #000000;
+    font-size: 50px;
+}
+
+section#comecar-live > a > span {
+    font-size: 70px;
+}
+
+.agendar-live > a > span {
+    font-size: 55px;
+}
+
+.agendar-live {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw; /* Ajustei a largura diferente por isso repeti codigo */
+    height: 20vh;/* Ajustei a largura diferente por isso repeti codigo */
+    background-color: #ffde59;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a#agendar {
+    color: #000000;
+    font-size: 50px;
+    
+}
+
+p {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+section.book > a > span {
+    color: black;
+    font-size: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+/* Adaptação para dispositivos móveis */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .live-section .link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .live-section .link a {
+        margin-top: 10px;
+    }
+
+    .link-section input {
+        margin-bottom: 10px;
+    }
+
+    .link-section button {
+        margin-bottom: 10px;
+    }
+}
