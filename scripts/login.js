@@ -24,7 +24,7 @@ function loginUser(email, password) {
             if (user) {
                 // Usuário autenticado com sucesso
                 // Redireciona para a próxima página
-                window.location.href = '../pagina-protegida.html'; // Caminho da página após o login
+                window.location.href = './inicio.html'; // Caminho da página após o login
             } else {
                 // Usuário ou senha incorretos
                 alert('Email ou senha inválidos.');

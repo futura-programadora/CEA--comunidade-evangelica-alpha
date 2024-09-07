@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.back-icon {
+    font-size: 30px; /* Tamanho do ícone de voltar */
+    color: #000000;
+    text-decoration: none;
+}
+
+.back-icon .material-symbols-outlined {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#month-year {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px; /* Ajustado para maior conforto em dispositivos móveis */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em; /* Tamanho do texto dos dias */
+}
+
+.day.live {
+    border: 2px solid red; /* Destaque para dias com live */
+}
+
+.day:hover {
+    background-color: #f0f0f0;
+}
+
+.live-info {
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+    background-color: #ffde59 ;
+    margin: auto;
+    padding: 15px;
+}
+
+.live-info h2 {
+    margin: 0;
+    font-size: 1.2em; /* Ajustado para melhor visualização */
+}
+
+.live-info p {
+    margin: 10px 0 0;
+    font-size: 1em; /* Ajustado para melhor visualização */
+}
+
+
+
+/* Adaptação para dispositivos móveis */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .calendar-container {
+        padding: 10px;
+    }
+
+    #month-year {
+        font-size: 1em;
+    }
+
+    #calendar {
+        grid-template-columns: repeat(7, 1fr);
+        gap: 1px;
+    }
+
+    .day {
+        height: 50px; /* Ajuste para dispositivos móveis */
+        font-size: 0.9em; /* Tamanho do texto ajustado */
+    }
+
+    .live-info h2 {
+        font-size: 1em; /* Ajuste para dispositivos móveis */
+    }
+
+    .live-info p {
+        font-size: 0.9em; /* Ajuste para dispositivos móveis */
+    }
+}

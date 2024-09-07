@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Live</title>
+    <link rel="stylesheet" href="../estilos/inicio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <!-- Cabeçalho -->
+        <section class="header">
+            <div class="user">
+                <span class="material-icons">
+                    person_2
+                    </span>
+            </div>
+            <div class="book-icon">
+                <a href=""><span class="material-icons">book</span></a>
+            </div>
+        </section>
+
+        <!-- Link e Transmissão ao vivo -->
+        <section class="live-section">
+            <div class="link">
+                <a href="../paginas/cultos-agendados.html"><span class="material-symbols-outlined">calendar_clock<span></a>
+            </div>
+            <div class="live">
+                <p>Transmissão ao Vivo</p>
+                <!-- Aqui vai o player da live -->
+            </div>
+        </section>
+
+        <!-- Colaborador -->
+        <section class="collaborator-section">
+            <p>Fique atento, você pode receber uma oportunidade</p>
+            <button id="participate-button" disabled>Participar da Live</button>
+        </section><br><br>
+
+        <!-- Link para live específica -->
+        <section class="link-section">
+            <input type="text" placeholder="Adicionar link do culto">
+            <button id="invite-link-button">Entrar no culto</button><br><br>
+            <div class="pix-option">
+                    <!-- Chave Pix visível -->
+                    <span id="pix-key">vou colocar ainda</span>
+                    <!-- Botão para copiar a chave Pix -->
+                    <button class="copy-button" onclick="copyPixKey()">Copiar Chave Pix</button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="../scripts/inicio.js" defer></script>
+</body>
+</html>
