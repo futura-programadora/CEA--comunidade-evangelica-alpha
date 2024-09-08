@@ -1,4 +1,4 @@
-// Seleciona o formulário de login
+/*
 const loginForm = document.getElementById('loginForm');
 
 // Adiciona um evento de submissão ao formulário
@@ -33,4 +33,4 @@ function loginUser(email, password) {
         .catch(error => {
             console.error('Erro:', error);
         });
-}
+}*/

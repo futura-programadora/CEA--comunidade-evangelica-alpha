@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const liveDates = {
-        '2024-09-10': 'Live com o especialista em JavaScript às 18:00',
-        '2024-09-15': 'Live sobre CSS Avançado às 20:00',
-        '2024-09-25': 'Live de Perguntas e Respostas às 21:00'
+        '2024-09-10': 'culto às 18:00',
+        '2024-09-15': 'Culto às 20:00',
+        '2024-09-25': 'Culto às 21:00'
     };
 
     const calendar = document.getElementById('calendar');
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (liveDates[dayString]) {
                     liveDetails.textContent = liveDates[dayString];
                 } else {
-                    liveDetails.textContent = 'Nenhuma live agendada para este dia.';
+                    liveDetails.textContent = 'Nenhum culto agendado para este dia.';
                 }
             });
 

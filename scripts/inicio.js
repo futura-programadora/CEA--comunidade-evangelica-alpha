@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     const botaoParticipar = document.getElementById('botao-participar');
     const botaoLinkConvite = document.getElementById('botao-link-convite');
     
@@ -54,4 +54,4 @@ async function copyPixKey() {
         // Exibe um alerta caso ocorra um erro ao copiar a chave
         alert('Falha ao copiar a chave Pix: ' + err);
     }
-}
+}*/

@@ -1,4 +1,4 @@
-// Seleciona o formulário de registro
+/*
 const registrationForm = document.getElementById('registrationForm');
 
 // Adiciona um evento de submissão ao formulário
@@ -35,4 +35,4 @@ function sendDataToServer(email, password) {
         console.error('Erro:', error);
     });
 }
-
+*/

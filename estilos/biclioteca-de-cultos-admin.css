@@ -1,0 +1,66 @@
+@charset "UTF=8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-icon {
+    font-size: 30px; /* Tamanho do ícone de voltar */
+    color: #000000;
+    text-decoration: none;
+}
+
+.container > .header > a > span {
+    font-size: 45px;
+}
+
+.container h2, #nao-tem-cultos-feitos {
+    margin: auto;
+    text-align: center;
+    color: gray;
+}
+
+.biblioteca-de-cultos {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+
+/* Adaptação para dispositivos móveis */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;/*faz com que fique em colunas*/
+        align-items: flex-start;/*Alinha os itens dentro do contêiner flexível no início do eixo transversal. */
+    }
+
+    p, h2, h1 {
+        flex-wrap: wrap;
+    }
+
+    .biblioteca-de-cultos p, .biblioteca-de-cultos h2, .biblioteca-de-cultos h1 {
+        overflow-wrap: break-word; /* Quebra a palavra quando ultrapassa o limite */
+    }
+}

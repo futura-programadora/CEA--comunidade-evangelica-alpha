@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../estilos/fazer-live-admin.css">
+    <title>fazer um culto</title>
+</head>
+<body>
+    <section class="container">
+        <header class="header"></header>
+            <a href="javascript:history.back()" class="back-icon">
+                <span class="material-symbols-outlined">arrow_back</span> <!-- Ícone de voltar -->
+            </a>
+        </header>
+    </section>
+    <form class="fazer-live" action="">
+        <h1>Começar um culto</h1>
+        <input type="text" name="titulo" id="titulo" placeholder="Título">
+
+        <select name="interacao-do-ususario" id="interacao-do-ususario">
+            <option value="padrao">Interação do usuário</option>
+            <option value="apenas-assistir">Apenas assistir</option>
+            <option value="assistir e comentar">Assistir e comentar</option>
+        </select>
+
+        <input type="url" name="Link-de-Divulgação" id="Link-de-Divulgação" placeholder="Link de divulgação">
+
+        <p>Configurações opcionais</p>
+
+        <select name="membros" id="membros">
+            <option value="convidar-todos-os-membros">convidar membros</option>
+            <!-- As opções serão adicionadas aqui -->
+        </select>
+
+        <button onclick="" type="submit">Começar culto</button>
+    </form>
+    <script src="../scripts/fazer-live-admin.js"></script>
+</body>
+</html>

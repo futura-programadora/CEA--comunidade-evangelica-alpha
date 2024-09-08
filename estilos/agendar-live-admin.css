@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.back-icon {
+    font-size: 30px; /* Tamanho do ícone de voltar */
+    color: #000000;
+    text-decoration: none;
+}
+
+.container > .header > a > span{
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: auto;
+}
+
+/* Estilo para centralizar o conteúdo da seção */
+
+.agendar-live {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    flex-direction: column; /* Alinha os itens em uma coluna */
+    width: 90%; /* Define a largura como 90% */
+    margin: 0 auto; /* Centraliza a seção horizontalmente */
+}
+
+/* Estilo para garantir que inputs e selects tenham a mesma largura */
+.agendar-live input, .agendar-live select {
+    width: 100%; /* Faz com que ocupe toda a largura disponível do contêiner */
+    max-width: 100%; /* Garante que não ultrapasse a largura do contêiner */
+    margin-bottom: 15px; /* Espaçamento entre os elementos */
+    margin-top: 10px;
+    padding: 10px; /* Espaçamento interno para inputs e selects */
+    border: 1px solid #ccc; /* Borda dos inputs e selects */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Estilo para o título e selects específicos */
+.agendar-live p {
+    margin: 20px 0; /* Espaçamento em cima e embaixo do parágrafo */
+    font-weight: bold; /* Destaca o texto do parágrafo */
+}
+
+button {
+    width: 300px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #616161;
+}

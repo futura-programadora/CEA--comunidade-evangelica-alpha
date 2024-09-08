@@ -59,7 +59,7 @@ section.container > header > a > span{
 }
 
 .fazer-texto textarea {
-    height: 200px;
+    height: 150px;
     resize: vertical;
 }
 
@@ -79,6 +79,10 @@ section.container > header > a > span{
 
 #posts, h2{
     text-align: center;
+}
+
+iframe {
+    margin: 10px;
 }
 
 /* Adaptação para dispositivos móveis */
