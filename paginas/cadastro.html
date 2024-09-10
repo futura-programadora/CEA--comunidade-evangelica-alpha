@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/login.css">
 </head>
 <body>
@@ -15,17 +16,22 @@
         <section class="form-section">
             <form id="registrationForm">
                 <h2>Cadastre-se</h2>
+                <label for="userName"><span class="material-icons">
+                    person_2
+                    </span></label>
+                <input type="text" name="userName" id="userName" required placeholder="Nome de usuário">
+
                 <label for="email"><span class="material-symbols-outlined">
                     drafts
                     </span></label>
 
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required placeholder="E-mail">
 
                 <label for="password"><span class="material-symbols-outlined">
                     passkey
                     </span></label>
 
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" name="password" required placeholder="Crie uma senha">
 
                 <button type="submit">Entrar</button>
                 <section class="additional-options">
