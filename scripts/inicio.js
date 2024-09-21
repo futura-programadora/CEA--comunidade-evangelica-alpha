@@ -41,7 +41,7 @@ function sairdaConta(event) {
         window.alert('Error: Ação cancelada.');
     }
 }
-
+*/
 async function copyPixKey() {
     try {
         // Obtém a chave Pix do elemento com ID 'pix-key'
@@ -54,4 +54,4 @@ async function copyPixKey() {
         // Exibe um alerta caso ocorra um erro ao copiar a chave
         alert('Falha ao copiar a chave Pix: ' + err);
     }
-}*/
+}
