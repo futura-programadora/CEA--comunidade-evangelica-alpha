@@ -47,8 +47,8 @@ section.container > section.header > div.user > a > span, a {
 h2 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #f5c400;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.764);
+    color: #3d3100;
+    text-shadow: 2px 2px 2px rgba(193, 203, 0, 0.721);
     font-size: 1.5em;
     text-decoration: underline;
 }
